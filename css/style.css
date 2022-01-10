@@ -1,0 +1,165 @@
+html, body {
+    font-family: Tahoma, sans-serif;
+    background: #d6b841;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: relative;
+    height: 95px;
+    border: 1px solid black;
+    background: cornflowerblue;
+}
+
+main {
+    min-height: 75vh;
+    border: 1px solid green;
+    width: 80%;
+    margin: auto;
+    background: #d6d498;
+}
+
+footer {
+    height: 50px;
+    border: 1px solid red;
+    background: #c4a518;
+}
+
+img#logo {
+    float: left;
+    margin: 3px 5px;
+    border: 1px solid crimson;
+    background-color: green;
+}
+
+h1 {
+    font-size: large;
+    margin: 12px 0 0 5px;
+    padding: 10px 0px;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: Verdana, Geneva;
+}
+
+h2 {
+    font-size: medium;
+    margin: 1em 0 .5em 20px;
+}
+
+p {
+    margin: 15px;
+}
+
+ul#menu {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    position: absolute;
+    bottom: 0;
+}
+
+ul#menu li:first-child {
+    margin-left: 10%;
+}
+
+ul#menu li {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+ul#menu li a {
+    text-align: center;
+    border: 1px solid black;
+    margin: 0;
+    padding: 5px;
+    min-width: 100px;
+}
+
+ul#menu li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+ul#menu li p {
+        text-align: center;
+        border: 1px solid black;
+        margin: 0;
+        padding: 5px;
+        min-width: 100px;
+    }
+
+.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.align-right {
+    float: right;
+}
+
+ul#gallery {
+    width: 80%;
+    list-style-type: none;
+    margin: 20px auto;
+    padding: 0;
+    border: 1px solid red;
+    background-color: #f1f1f1;
+}
+
+ul#gallery li {
+    width: 240px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    border: 1px solid red;
+    background-color: #09b35e;
+}
+
+#gallery img {
+    margin: 25px
+}
+
+.error {
+    background-color: red;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.pagination {
+    text-align: center;
+}
+
+.pagination a {
+    display: inline-block;
+    padding: 5px;
+    margin: 2px;
+    border: 1px solid black;
+}
+
+input[type="submit"] {
+    float: right;
+}
+
+form {
+    padding: 0 20px 20px 20px;
+}
+
+form:after {
+    content: '.';
+    position: relative;
+    clear: both;
+    visibility: hidden;
+    height: 20px;
+}

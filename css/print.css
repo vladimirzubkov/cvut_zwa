@@ -1,0 +1,32 @@
+html, body, h1, h2 {
+   font-family: "Times New Roman", Times, serif;
+   font-size: 1.2em;
+   border: 0;
+   color: black;
+}
+
+h1, h2 {
+   margin: 0 0 0 12px;
+}
+
+header, main, footer {
+   border: 0;
+}
+
+body {
+   width: 98%;
+   border: 1px solid black;
+}
+
+header img, #menu {
+   display: none;
+}
+
+main {
+   width: 100%; 
+}
+
+.red, .error {
+   color: grey;
+   background-color: lightgrey;
+}
